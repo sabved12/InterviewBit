@@ -108,10 +108,10 @@ export const interviewer: CreateAssistantDTO = {
   },
   voice: {
     provider: "11labs",
-    voiceId: "sarah",
+    voiceId: "spencer",
     stability: 0.4,
     similarityBoost: 0.8,
-    speed: 0.9,
+    speed: 0.9, 
     style: 0.5,
     useSpeakerBoost: true,
   },
@@ -228,3 +228,4 @@ export const dummyInterviews: Interview[] = [
     createdAt: "2024-03-14T15:30:00Z",
   },
 ];
+
